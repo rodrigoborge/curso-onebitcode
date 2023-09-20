@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inputs do HTML</title>
+</head>
+<body>
+    <h1>Inputs do HTML</h1>
+
+    <form action="">
+        <!-- Campo de texto -->
+        <label for="nome">Nome:</label>
+        <input type="text" id="nome" name="nome" required>
+        <br><br>
+        <!-- Campo de E-mail -->
+        <label for="email">E-mail</label>
+        <input type="email" id="email" name="email" required>
+        <br><br>
+
+        <!-- Campo de senha -->
+        <label for="senha">Senha:</label>
+        <input type="password" id="senha" name="senha">
+        
+        <br><br>
+
+        <!-- Campo de seleçao -->
+        <label for="">Genero:</label>
+        <br>
+        <input type="radio" name="genero" id="masculino" value="m">
+        <label for="masculino">Masculino</label>
+
+        <input type="radio" name="genero" id="feminino" value="f">
+        <label for="feminino">Feminino</label>
+        <br><br>
+
+        <!-- Campo de Seleçao Multipla -->
+        <label>Interesses:</label><br>
+        <input type="checkbox" id="backend" value="backend" name="interesses">
+        <label for="backend">Backend</label>
+        <input type="checkbox" id="frontend" value="frontend" name="interesses">
+        <label for="frontend">Frontend</label>
+        <input type="checkbox" id="mobile" value="mobile" name="interesses">
+        <label for="mobile">Mobile</label>
+        <br><br>
+
+        <!-- Campo de Data -->
+        <label for="datadenascimento">Data de Nascimento:</label><br>
+        <input type="date" name="datadenascimento" id="nascimento">
+        <br><br>
+
+        <!-- Campo de Arquivo -->
+        <label for="fotodeperfil">Foto de Perfil:</label><br>
+        <input type="file" name="avatar" id="fotodeperfil">
+
+        <br><br>
+        <button type="submit">Enviar</button>
+        <br><br>
+
+    </form>
+
+</body>
+</html>
