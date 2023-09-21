@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Elementos select e textarea</title>
+</head>
+<body>
+    <h1>Elementos select e textarea</h1>
+
+        <!-- Caixa de Selacao -->
+        <label for="situacao">Situação Atual:</label><br>
+        <select name="situacao" id="situacao">
+            <option value="" selected disabled>Selecione uma das opções</option>
+            <option value="estudante">Estudando para me tornar um programador</option>
+            <option value="estagiario">Estou atuando como estagiario</option>
+            <option value="junior">Estou atuando como junior</option>
+            <option value="senior">Estou atuando como senior</option>
+        </select>
+        <br><br>
+
+        <!-- Área de texto -->
+        <label for="sobre">Sobre mim:</label><br>
+        <textarea name="sobre" id="sobre" cols="35" rows="10"></textarea>
+
+        <br><br>
+        <button type="submit">Enviar</button>
+        <br><br>
+</body>
+</html>
