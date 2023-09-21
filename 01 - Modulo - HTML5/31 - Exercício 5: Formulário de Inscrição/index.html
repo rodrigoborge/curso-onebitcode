@@ -8,37 +8,42 @@
 <body>
     <h1>Formulário de Inscrição</h1>
 
-    <form action="">
+    <form>
+        <div>
         <label for="nome">Nome:</label><br>
         <input type="text" name="nome" id="nome" placeholder="Digite aqui o seu nome">
-        <br><br>
-
+        </div>
+        <br>
+        <div>
         <label for="email">E-mail:</label><br>
         <input type="email" name="email" id="email" placeholder="exemplo@gmail.com.br">
-        <br><br>
+        </div>
+        <br>
+        <div>
+        <label>Área de Atuação:</label><br>
+        <input type="radio" name="area" id="desenvolvimento" value="desenvolvimento" required>
+        <label for="desenvolvimento" id="desenvolvimento">Desenvolvimento</label>
 
-        <label for="areadeatuacao">Área de Atuação:</label><br>
-        <input type="radio" name="desenvolvimento" id="desenvolvimento" value="Desenvolvimento">
-        <label for="Desenvolvimento">Desenvolvimento</label>
+        <input type="radio" name="area" id="qa" value="qa" required>
+        <label for="qa" id="qa">Quality Assurance (QA)</label>
 
-        <input type="radio" name="qa" id="qa" value="qa">
-        <label for="qa">Quality Assurance (QA)</label>
+        <input type="radio" name="area" id="analisede" value="analisede" required>
+        <label for="analisede" id="analisede">Análise de Desenvolvimento</label>
 
-        <input type="radio" name="analisede" id="analisede" value="analisede">
-        <label for="ad">Análise de Desenvolvimento</label>
-
-        <input type="radio" name="infra" id="infra" value="infra">
-        <label for="infra">Infraestrutura</label>
-        <br><br>
-
+        <input type="radio" name="area" id="infra" value="infra" required>
+        <label for="infra" id="infra">Infraestrutura</label>
+        </div>
+        <br>
+        <div>
         <label for="obs">Observações:</label><br>
         <textarea name="obs" id="obs" cols="70" rows="5" placeholder="Possui mais alguma informação? Escreva aqui..."></textarea>
-        <br><br>
-
+        </div>
+        <br>
+        <div>
         <input type="checkbox" name="comunicacao" id="comunicacao" value="sim">
         <label for="comunicacao">Desejo receber novidades e ofertas</label>
+        </div>
         <br><br>
-
         <button type="submit">Enviar</button>
     </form>
 </body>
