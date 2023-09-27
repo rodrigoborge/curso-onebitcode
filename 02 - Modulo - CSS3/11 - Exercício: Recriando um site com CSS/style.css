@@ -1,0 +1,25 @@
+body{
+    background-color: #2c3e50;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1{
+    color: white;
+}
+
+li{
+    color: #ffffff;
+}
+
+h4{
+    color: #f1c40f;
+}
+
+h3{
+    background-color: #f1c40f;
+    border: 2px solid;
+}
+
+#red{
+    color: #e74c3c;
+}
